@@ -1,13 +1,23 @@
 #!/bin/bash
 set -euxo pipefail
 
-system_to_install="ghostty helix cargo npm"
-stow_packages="bash git"
+SYSTEM_PACKAGES="ghostty helix cargo npm"
 
+STOW_PACKAGES="bash git vscode"
 
+if [ "$1" == "--force" ]; then
+    git stow $STOW_PACKAGES --adopt
+    git restore .
+
+else
+    git stow $STOW_PACKAGES
+
+fi
+
+echo "Successfully synced dotfiles"
 
 echo "REMINDER:"
-echo "still to install: $system_to_install"
+echo "still to install: $SYSTEM_PACKAGES"
 
 
 
