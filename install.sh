@@ -1,11 +1,11 @@
 #!/bin/bash
-set -euxo pipefail
+set -euo pipefail
 
 SYSTEM_PACKAGES="ghostty helix cargo npm"
 
 STOW_PACKAGES="bash git vscode"
 
-if [ "$1" == "--force" ]; then
+if [ $# -gt 0 ] && [ "$1" == "--force" ]; then
     git stow $STOW_PACKAGES --adopt
     git restore .
 
