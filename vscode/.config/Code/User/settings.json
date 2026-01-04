@@ -1,0 +1,107 @@
+ {
+
+  "git.autofetch": true,
+
+  "git.autofetchPeriod": 60,
+
+  "editor.detectIndentation": false,
+
+  "editor.formatOnSave": true,
+
+  "editor.formatOnPaste": true,
+
+  "files.autoSaveWhenNoErrors": true,
+
+  "files.autoSave": "onFocusChange",
+
+  "editor.guides.bracketPairs": true,
+
+  "workbench.editor.showTabs": "single",
+
+  "workbench.statusBar.visible": true,
+
+  "editor.minimap.enabled": false,
+
+  "editor.matchBrackets": "never",
+
+  "settingsSync.keybindingsPerPlatform": false,
+
+  "git.confirmSync": false,
+
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+  "rust-analyzer.cargo.features": "all",
+
+  "python.analysis.typeCheckingMode": "strict",
+
+  "python.analysis.typeEvaluation.strictDictionaryInference": true,
+
+  "python.analysis.typeEvaluation.deprecateTypingAliases": true,
+
+  "python.analysis.typeEvaluation.disableBytesTypePromotions": true,
+
+  "python.analysis.typeEvaluation.enableReachabilityAnalysis": true,
+
+  "python.analysis.typeEvaluation.strictListInference": true,
+
+  "python.analysis.typeEvaluation.strictSetInference": true,
+
+  "[python]": {
+
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    "editor.defaultColorDecorators": "never",
+
+    "editor.formatOnType": true,
+
+    "editor.wordBasedSuggestions": "off"
+
+  },
+
+  "mypy-type-checker.path": [
+
+    "/home/jakob.roehrborn/Projects/origami/.venv/bin/mypy"
+
+  ],
+
+  "mypy-type-checker.importStrategy": "fromEnvironment",
+
+  "update.showReleaseNotes": false,
+
+  "github.copilot.enable": {
+
+    "*": false,
+
+    "plaintext": false,
+
+    "markdown": false,
+
+    "scminput": false,
+
+    "rust": false
+
+  },
+
+  "[cpp]": {
+
+    "editor.wordBasedSuggestions": "off",
+
+    "editor.semanticHighlighting.enabled": true,
+
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+
+    "editor.suggest.insertMode": "replace"
+
+  },
+
+  "C_Cpp.default.cStandard": "c23",
+
+  "C_Cpp.default.cppStandard": "c++23",
+
+  "makefile.configureOnOpen": true,
+
+  "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+
+  "jdk.telemetry.enabled": false
+
+} 
