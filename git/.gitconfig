@@ -1,0 +1,4 @@
+[init]
+	defaultBranch = main
+[alias]
+	history = log --graph --decorate --all --oneline
